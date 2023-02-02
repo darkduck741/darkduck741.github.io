@@ -233,5 +233,25 @@ button {
       margin-right: 0;
     }
 
-    
+
+}
+
+@media (max-width: 360px){
+   .navbar .navbar-brand {
+      margin-left: 0;
+      font-size: 18px;
+      padding:0;
+    }
+    .navbar .navbar-toggler {
+      margin-right: 0;
+      padding:0;
+    }
+
+    .body1{
+      padding:10%;
+    }
+
+    .slika{
+      height: fit-content;
+    }
 }
