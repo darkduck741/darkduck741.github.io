@@ -21,7 +21,7 @@ button {
 
 .slika {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url("slike/dolazakhrvata.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,11 +51,11 @@ button {
 }
 
 .Prvi-element {
-  text-align: left;
+  text-align: center;
   font-family: "Montserrat", sent-serif;
   font-weight: 700;
   font-size: 60px;
-  margin-top: 35%;
+  margin-top: 30%;
   opacity: 0.6;
   color: #d4d4dc;
 }
@@ -69,7 +69,6 @@ button {
 }
 
 .detext {
-  text-align: start;
   opacity: 1;
   padding: 15px;
 }
@@ -111,20 +110,15 @@ button {
   background-color: #d4d4dc !important;
 }
 
-.e4 {
-  margin-right: 5%;
+.body1 .row {
+  padding-top: 2%;
 }
-.e6 {
-  margin-left: 5%;
-}
-
-.body1 .row .col {
-  border-radius: 20px;
-  background-color: #393f4d;
-  color: #d4d4dc;
-  margin: 5%;
-  opacity: 0.7;
-  padding: 5px;
+.body1 .row .e {
+  border-radius: 20px !important;
+  background-color: #393f4d !important;
+  color: #d4d4dc !important;
+  opacity: 0.7 !important;
+  padding: 5px !important;
 }
 
 .Naslov1 {
@@ -204,60 +198,87 @@ button {
 
 @media (max-width: 800px) {
   .Prvi-element {
-   margin: 0;
+    margin: 0;
     font-size: 30px;
     margin-top: 10%;
     text-align: center;
   }
   .de {
-   font-weight: 600;
-   margin-top: 5%;
-   font-size:14px;
- }
-
+    font-weight: 600;
+    margin-top: 5%;
+    font-size: 14px;
+  }
 }
 
-@media (max-width: 600px){
-   .navbar .navbar-brand {
-      margin-left: 5%;
-    }
-    .navbar .navbar-toggler {
-      margin-right: 5%;
-    }
+.Naslovb3 {
+  text-align: center;
+  font-weight: 800;
 }
 
-@media (max-width: 400px){
-   .navbar .navbar-brand {
-      margin-left: 0;
-    }
-    .navbar .navbar-toggler {
-      margin-right: 0;
-    }
-
-
+.Nbody3 {
+  padding-top: 1%;
 }
 
-@media (max-width: 360px){
-   .navbar .navbar-brand {
-      margin-left: 0;
-      font-size: 18px;
-      padding:0;
-    }
-    .navbar .navbar-toggler {
-      margin-right: 0;
-      padding:0;
-    }
+@media (min-width: 1168px) {
+  .Prvi-element {
+    margin-top: 5%;
+  }
+  .de {
+    margin-top: 10%;
+  }
+}
 
-    .body1{
-      padding:10%;
-      height:80vh;
-    }
+@media(min-width: 1163px) {
+  .Prvi-element {
+    margin-top: 0;
+    padding-top:0;
+  
+  }
+  .de{
+    padding-top:50px;
+    margin-top:100px;
+  }
+}
 
-    .slika{
-      height: 110vh;
-    }
+@media (max-width: 600px) {
+  .navbar .navbar-brand {
+    margin-left: 5%;
+  }
+  .navbar .navbar-toggler {
+    margin-right: 5%;
+  }
+}
 
-    .body2{
-      height:110vh;
-    }
+@media (max-width: 400px) {
+  .navbar .navbar-brand {
+    margin-left: 0;
+  }
+  .navbar .navbar-toggler {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar .navbar-brand {
+    margin-left: 0;
+    font-size: 18px;
+    padding: 0;
+  }
+  .navbar .navbar-toggler {
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .body1 {
+    padding: 10%;
+    height: 110vh;
+  }
+
+  .slika {
+    height: 110vh;
+  }
+
+  .body2 {
+    height: 150vh;
+  }
 }
