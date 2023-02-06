@@ -112,7 +112,10 @@ footer li a:hover{
     background: rgba(0, 0, 0, 0.5);
   }
   .navbar-brand {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .offcanvas-title{
+    font-size:24px;
   }
   .carousel-caption {
     bottom: 165px;
