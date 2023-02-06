@@ -11,7 +11,10 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
@@ -194,7 +197,8 @@
         <div class="carousel-item active carousel">
           <img
             alt="..."
-            class="d-block w-100 slika1 opacity-75"
+            class="d-block w-100 slika1 opacity-75 img-fluid"
+            id="slika1"
             src="slike/5852_2_lightbox_1_780_430.jpg"
           />
           <div class="carousel-caption kartica">
@@ -366,19 +370,42 @@
 
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Početna</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Etmogeneza</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Društvo</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Kraljevi</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Kultura</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Međunarodni odnosi</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Zanimljivosti</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Etmogeneza</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Društvo</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Kraljevi</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Kultura</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Međunarodni odnosi</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Zanimljivosti</a>
+        </li>
       </ul>
       <p class="text-center text-muted">Napravili: Ivan Obraz & Marta Bubalo</p>
     </footer>
-
-
-
+    <script>
+      
+      
+        if (window.innerWidth < 1024) {
+          document.getElementById("slika1").src =
+            "slike/fotor_2023-2-6_12_48_50.jpg";
+        } else {
+          document.getElementById("slika1").src =
+            "slike/5852_2_lightbox_1_780_430.jpg";
+        }
+      
+    </script>
     <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
