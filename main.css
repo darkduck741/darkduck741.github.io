@@ -12,8 +12,9 @@ body {
   opacity: 0.9;
   max-width: 100%;
   overflow-x: hidden;
-  
 }
+
+/* Navbar */
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -27,39 +28,7 @@ body {
 .bg-light {
   background-color: transparent !important;
 }
-.carousel-item {
-  height: 100vh;
-  min-height: 300px;
-}
-.carousel-caption {
-  bottom: 220px;
-}
-.carousel-caption h5 {
-  font-size: 45px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
-}
-.carousel-caption p {
-  width: 60%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
-}
-.carousel-caption a {
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #feda6a;
-  padding: 10px 30px;
-  display: inline-block;
-  color:#d6d6d6 !important;
-  margin-top: 15px;
-  border-radius: 8px;
-}
-.carousel-caption a:hover {
-  background: #393f4d;
-  color: #feda6a;
-}
+
 .navbar-nav a {
   font-size: 18px;
 }
@@ -101,11 +70,59 @@ body {
   background: #fff;
 }
 
-footer li a:hover{
-  color: #feda6a !important;
+/* Body 1 */
 
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 220px;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #feda6a;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #d6d6d6 !important;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+.carousel-caption a:hover {
+  background: #393f4d;
+  color: #feda6a;
 }
 
+/* Body2 */
+
+.body2 {
+  background-image: linear-gradient
+    (
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75),
+      url(slike/DOLAZAKHRVATAMAIN.jpg)
+    );
+}
+
+/* Footer */
+footer li a:hover {
+  color: #feda6a !important;
+}
+
+/* Media */
 @media only screen and (max-width: 767px) {
   .navbar-nav {
     text-align: center;
@@ -114,8 +131,8 @@ footer li a:hover{
   .navbar-brand {
     font-size: 18px !important;
   }
-  .offcanvas-title{
-    font-size:16px !important;
+  .offcanvas-title {
+    font-size: 16px !important;
   }
   .carousel-caption {
     bottom: 165px;
@@ -127,5 +144,4 @@ footer li a:hover{
     padding: 10px 15px;
     font-size: 15px;
   }
-  
 }

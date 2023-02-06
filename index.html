@@ -60,12 +60,12 @@
                 <a
                   class="nav-link active text-light"
                   aria-current="page"
-                  href="#"
+                  href="index.html"
                   >Početna</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Etmogeneza Hrvata</a>
+                <a class="nav-link text-light" href="etnogeneza.html">Etnogeneza Hrvata</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">Društvo</a>
@@ -148,7 +148,9 @@
       </div>
     </nav>
 
-    <!--Prvi element-->
+
+
+    <!--Body-->
     <div
       class="carousel slide carousel"
       data-bs-ride="carousel"
@@ -199,7 +201,7 @@
             alt="..."
             class="d-block w-100 slika1 opacity-75 img-fluid"
             id="slika1"
-            src="slike/5852_2_lightbox_1_780_430.jpg"
+            src="slike/DOLAZAKHRVATAMAIN.jpg"
           />
           <div class="carousel-caption kartica">
             <h1
@@ -213,12 +215,12 @@
               style="animation-delay: 2s"
             >
               Zbog nepismenosti ovog naroda nema puno podataka o njemu. Razne
-              teorije su prožete kroz etmogenezu ovog naroda. Radi li se o
-              Germanima ili o Perzijancima ili čak o Ilirima? Ili su to tek
+              teorije se protežu kroz etnogenezu ovog naroda. Radi li se o
+              Germanima ili  Irancima ili čak o Ilirima? Ili su to tek
               priče za malu djecu ?
             </p>
             <p class="animated bounceInRight" style="animation-delay: 3s">
-              <a href="#">Više</a>
+              <a href="etnogeneza.html">Etnogeneza</a>
             </p>
           </div>
         </div>
@@ -226,7 +228,8 @@
           <img
             alt="..."
             class="d-block w-100 opacity-75"
-            src="https://i.postimg.cc/C1rx7Kyh/2.jpg"
+            id="slika2"
+            src="slike/bascanska-ploca.jpg"
           />
           <div class="carousel-caption kartica">
             <h1
@@ -243,7 +246,7 @@
               nulla, tempore. Deserunt excepturi quas vero.
             </p>
             <p class="animated bounceInRight" style="animation-delay: 3s">
-              <a href="#">Više</a>
+              <a href="#">VIŠE</a>
             </p>
           </div>
         </div>
@@ -251,14 +254,15 @@
           <img
             alt="..."
             class="d-block w-100 opacity-75"
-            src="https://i.postimg.cc/c4nL7ZFW/3.jpg"
+            src="slike/KraljTomislav_.jpg"
+            id="slika3"
           />
           <div class="carousel-caption kartica">
             <h1
               class="animated bounceInRight fw-bolder"
               style="animation-delay: 1s"
             >
-              Kraljevi
+              Vladari
             </h1>
             <p
               class="animated bounceInLeft d-none d-md-block fw-bold"
@@ -268,7 +272,7 @@
               nulla, tempore. Deserunt excepturi quas vero.
             </p>
             <p class="animated bounceInRight" style="animation-delay: 3s">
-              <a href="#">Više</a>
+              <a href="#">VIŠE</a>
             </p>
           </div>
         </div>
@@ -276,7 +280,8 @@
           <img
             alt="..."
             class="d-block w-100 opacity-75"
-            src="https://i.postimg.cc/C1rx7Kyh/2.jpg"
+            src="slike/MODNOSI.jpg"
+            id="slika4"
           />
           <div class="carousel-caption kartica">
             <h1
@@ -301,7 +306,8 @@
           <img
             alt="..."
             class="d-block w-100 opacity-75"
-            src="https://i.postimg.cc/c4nL7ZFW/3.jpg"
+            id="slika5"
+            src="slike/HRVDRUSTVO.jpg"
           />
           <div class="carousel-caption kartica">
             <h1
@@ -318,7 +324,7 @@
               nulla, tempore. Deserunt excepturi quas vero.
             </p>
             <p class="animated bounceInRight" style="animation-delay: 3s">
-              <a href="#">Više o Društvu</a>
+              <a href="#">VIŠE</a>
             </p>
           </div>
         </div>
@@ -327,6 +333,7 @@
             alt="..."
             class="d-block w-100 opacity-75"
             src="https://i.postimg.cc/c4nL7ZFW/3.jpg"
+            id="slika6"
           />
           <div class="carousel-caption kartica">
             <h1
@@ -368,13 +375,17 @@
       </button>
     </div>
 
+
+    <!--Footer-->
+
+
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
           <a href="#" class="nav-link px-2 text-muted">Početna</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Etmogeneza</a>
+          <a href="etnogeneza.html" class="nav-link px-2 text-muted">Etnogeneza</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link px-2 text-muted">Društvo</a>
@@ -394,19 +405,29 @@
       </ul>
       <p class="text-center text-muted">Napravili: Ivan Obraz & Marta Bubalo</p>
     </footer>
-    <script>
-      
-      
-        if (window.innerWidth < 1024) {
-          document.getElementById("slika1").src =
-            "slike/fotor_2023-2-6_12_48_50.jpg";
-        } else {
-          document.getElementById("slika1").src =
-            "slike/5852_2_lightbox_1_780_430.jpg";
-        }
-      
-    </script>
+
     <script src="main.js"></script>
+    <script>
+      function changeIcon(id, slika) {
+        document.getElementById(id).src = slika;
+      }
+
+      if (window.innerWidth < 1024) {
+        changeIcon("slika1", "slike/DOLAZAKHRVATAMOB.jpg");
+        changeIcon("slika2", "slike/HRVKULTURAMOB.jpg");
+        changeIcon("slika3", "slike/VLADARIMOB.jpg");
+        changeIcon("slika4", "slike/MODNOSIMOB.jpg");
+        changeIcon("slika5", "slike/HRVDRUSTVOMOB.jpg");
+        changeIcon("slika6", "slike/DOLAZAKHRVATAMOB.jpg");
+      } else {
+        changeIcon("slika1", "slike/DOLAZAKHRVATAMAIN.jpg");
+        changeIcon("slika2", "slike/HRVKULTURA.jpg");
+        changeIcon("slika3", "slike/VLADARI.jpg");
+        changeIcon("slika4", "slike/MODNOSI.jpg");
+        changeIcon("slika5", "slike/HRVDRUSTVO.jpg");
+        changeIcon("slika6", "slike/DOLAZAKHRVATAMOB.jpg");
+      }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
