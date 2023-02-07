@@ -186,12 +186,18 @@ body {
     height:26em;
     font-size:smaller;
   }
+  .body2 h3{
+    font-size: 20px!important;
+  }
   .card .h4{
     font-size: medium;
   }
   .navbar-nav {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
+  }
+  .text22{
+    font-size:13px !important; 
   }
   .navbar-brand {
     font-size: 14px !important;
