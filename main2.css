@@ -183,8 +183,8 @@ body {
 
 @media only screen and (max-width: 767px){
   .card{
-    height:18em;
-    font-size:small;
+    height:26em;
+    font-size:smaller;
   }
   .card .h4{
     font-size: medium;
@@ -194,10 +194,10 @@ body {
     background: rgba(0, 0, 0, 0.5);
   }
   .navbar-brand {
-    font-size: 18px !important;
+    font-size: 14px !important;
   }
   .offcanvas-title {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
 }
 /* Footer */
