@@ -12,6 +12,8 @@ body {
   opacity: 0.9;
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
@@ -74,16 +76,16 @@ body {
   display: flex;
   justify-content: center;
 }
-.card img {
-  max-width: 100%;
-  max-height: 100%;
-}
+
 .card {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
-  border-radius: 0;
+  border-radius: 24px;
+  padding: 2px;
+  height: 300px;
 }
+
 .carousel-inner {
   padding: 1em;
 }
@@ -93,14 +95,11 @@ body {
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
-  top: 50%;
+  top: 1%;
   transform: translateY(-50%);
 }
-@media (min-width: 768px) {
-  .card img {
-    height: 11em;
-  }
-}
+
+
 
 /* Body2 */
 
@@ -113,6 +112,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: #d6d6d6;
+  height: 100vh;
 }
 
 .body2 .text {
@@ -124,6 +124,68 @@ body {
   color: #feda6a;
 }
 
+.card1 {
+  background-color: #d6d6d6;
+}
+
+.card1 .text1 {
+  color: #393f4d !important;
+}
+.card1 .naslov1 {
+  color: #393f4d !important;
+}
+
+.card2 {
+  background-color: #393f4d;
+}
+.card2 .text2 {
+  color: #d6d6d6 !important;
+}
+.card2 .naslov2 {
+  color: #feda6a;
+}
+.card3 {
+  background-color: #feda6a;
+}
+.card3 .text3 {
+  color: #393f4d !important;
+}
+.card3 .naslov3 {
+  color: #d6d6d6;
+}
+
+.kartice {
+  position: relative;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: -15px;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 50px);
+  right: -15px;
+  opacity: 1;
+  font-size: 30px !important;}
+  
+  
+  .owl-dots .owl-dot {
+    height: -10px;
+    width: 10px;
+    margin: 10px;
+    
+  }
+
+@media only screen and (max-width: 767px){
+  .card{
+    height:21em;
+  }
+}
 /* Footer */
 footer li a:hover {
   color: #feda6a !important;
