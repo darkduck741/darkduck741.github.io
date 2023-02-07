@@ -183,7 +183,21 @@ body {
 
 @media only screen and (max-width: 767px){
   .card{
-    height:21em;
+    height:18em;
+    font-size:small;
+  }
+  .card .h4{
+    font-size: medium;
+  }
+  .navbar-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+  .offcanvas-title {
+    font-size: 16px !important;
   }
 }
 /* Footer */
