@@ -99,6 +99,27 @@ body {
   background-repeat: no-repeat;
 }
 
+
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card:hover .card-img-overlay {
+  display: flex;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   .card {
     height: 26em;
