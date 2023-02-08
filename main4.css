@@ -128,7 +128,7 @@ body {
 
 @media only screen and (max-width: 767px) {
   .card-img {
-    height: 60vh;
+    height: 80vh;
   }
 
   .card .h5 {
