@@ -1,0 +1,12 @@
+.body4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("slike/DOLAZAKHRVATAMAIN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d6d6d6;
+    height: fit-content;
+    
+  }

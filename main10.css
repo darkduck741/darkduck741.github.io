@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
+/* Global Settings */
+* {
+  font-family: "Montserrat", sent-serif;
+  font-weight: 600;
+}
+
+html,
+body {
+  background-color: #1d1e22;
+  opacity: 0.9;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.kartica {
+  color: #d6d6d6 !important;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-nav a {
+  font-size: 18px;
+}
+
+.navbar-nav a:hover {
+  color: #feda6a !important;
+}
+
+.navbar-light .offcanvas-title {
+  color: #d6d6d6;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand {
+  color: #d6d6d6;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #d6d6d6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #d6d6d6;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #d6d6d6;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.body4 .card {
+    border-radius: 30px;
+  }
+  
+  .body4 .title1 {
+    position: absolute;
+    bottom:24vh;
+    
+  }
+
+
+  
+  .body4 .card-text {
+    position: absolute;
+    bottom: 30px;
+    font-size: 15px;
+  }
+  .card-img{
+    height:50vh;
+  }
+
+  .body4 .card:hover {
+transform: scale(1.05);
+
+  }
+
+  .card1{
+    height:15vh;
+    background-color: #feda6a;
+  }
+.card1 .card-text{
+    color:#1d1e22;
+
+}
+  
+.owl-carousel .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 24px;
+    padding: 2px;
+    height: 300px;
+  }
+
+  .body7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("slike/DOLAZAKHRVATAMAIN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d6d6d6;
+    height: fit-content;
+    
+  }
+
+  .body7 .card-title{
+    color: #feda6a;
+font-size:18px;  }
+
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: -15px;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+  }
+  
+  .owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 50px);
+    right: -15px;
+    opacity: 1;
+    font-size: 30px !important;
+  }
+  
+  .owl-dots .owl-dot {
+    display: none !important;
+  }
+  .izvori .card{
+    height:auto;
+    border-radius: 24px;
+  }
+
+
+
+@media only screen and (max-width: 767px) {
+  .card-img {
+    height: 50vh;
+  }
+  .body4 .title1 {
+    position: absolute;
+    bottom:25vh;
+  }
+  .izvori .card .card-text{
+    font-size:smaller;
+  }
+  .izvori .card .card-title{
+    font-size:medium !important;
+  }
+
+  .card1 .h5{
+    font-size:medium;
+    
+  }
+  .card1 .card-text{
+    font-size:smaller;
+  }
+
+  .card .h5 {
+    font-size: medium;
+  }
+  .card .card-text {
+    font-size: 12px;
+  }
+  .navbar-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .text22 {
+    font-size: 13px !important;
+  }
+
+  .navbar-brand {
+    font-size: 14px !important;
+  }
+
+  .offcanvas-title {
+    font-size: 12px !important;
+  } 
+}
+
+/* Footer */
+footer li a:hover {
+  color: #feda6a !important;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.text-muted{
+    color: #6c757d !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

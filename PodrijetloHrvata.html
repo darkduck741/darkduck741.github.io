@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main10.css" />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <div class="body7 h-auto">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Hrvatska Povijest</a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
+                Hrvatska Povijest
+              </h5>
+              <button
+                type="button"
+                class="btn-close bg-light"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="index.html"
+                    >Početna</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="etnogeneza.html"
+                    >Etnogeneza Hrvata</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="kultura.html">Kultura</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Vladari
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="KnezoviKraljevi.html#Knezovi"
+                        >Knezovi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="KnezoviKraljevi.html#Kraljevi"
+                        >Kraljevi</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Međunarodni Odnosi
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Bizant</a></li>
+                    <li><a class="dropdown-item" href="#">Franačka</a></li>
+                    <li><a class="dropdown-item" href="#">Venecija</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item fw-lighter">
+                  <a class="nav-link text-light fs-6" href="literatura.html"
+                    >Literatura</a
+                  >
+                </li>
+              </ul>
+
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-xl">
+        <h3 class="text-center fw-bolder">Teorije o podrijetlu Hrvata</h3>
+
+        <div class="row mt-5">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="card">
+              <img src="slike/DOLAZAKHRVATAMAIN.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text fw-bold">
+                  Hrvati su jedan od naroda čije podrijetlo je u magli te
+                  svakakve teorije kruže krugovima povjesničara. Većina
+                  povjesničara se složila da potječu iz Bijele Hrvatske.
+                  Područja na prostoru današnje Južne Poljske oko rijeke Visle i
+                  grada Krakowa. Postoje razne teorije o podrijetlu Hrvata:
+                  Gotsku teoriju,Iransko-kavkasku, Ilirsku, Slavensku I teoriju
+                  socijalnog I društvenog dualizma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="owl-carousel owl-theme mt-5">
+          <div class="item mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="card-body">
+                <div class="card-title text-center text-dark">
+                  <h4 class="fw-bolder naslov1">Gotska teorija</h4>
+                </div>
+                <div class="card-text text-dark text1">
+                  Gotska teorija zastupa tezu po kojoj su Hrvati germanskog
+                  podrijetla. No, s vremenom njihov jezik se slavinizirao. Ova
+                  teorije svoje uporište ima u kronikama splitskog svećenika
+                  Tome Arhiđakona iz 13 st. I popa Dukljanina koji je zapravo
+                  biskup Grgur iz Bara u Duklji iz 12 st. Ova teorija je netočna
+                  zbog toga što naziv Goti koriste kao pogrdan naziv za barbare
+                  Slavene u susjedstvu preživjelih antičkih gradova.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card border-0 shadow card2">
+              <div class="card-body">
+                <div class="card-title text-center text-dark">
+                  <h4 class="fw-bolder naslov2">Iransko-kavkaska teorija</h4>
+                </div>
+                <div class="card-text text-dark text2">
+                  Iransko-kavkaska teorija vuče poveznicu imena Hrvat s imenom
+                  perzijske pokrajine Haravathije ). Natpis s nadgrobnih
+                  “tanaiskih ploča” pronađenih kraj ušća rijeke Don ima
+                  spomenuto ime Horoathos I Horuathos. Teorija zastupa da se
+                  radi o Hrvatima kao iranskom plemenu koje je migriralo preko
+                  ruskih stepa. S vremenom su postali slični Slavenima I
+                  preuzeli njihovu tradiciju. Teoriju odbacuju zbog činjenice da
+                  mnogo europskih naroda ima korijen s azijskog prostora.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card border-0 shadow card3">
+              <div class="card-body">
+                <div class="card-title text-center text-dark">
+                  <h4 class="fw-bolder naslov3">Ilirska teorije</h4>
+                </div>
+                <div class="card-text text-dark text3">
+                  Ilirska teorija tvrdi da su Hrvati ilirski narod te da do
+                  doseljenja nije ni bilo.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card border-0 shadow card1">
+              <div class="card-body">
+                <div class="card-title text-center text-dark">
+                  <h4 class="fw-bolder naslov1">Slavensku teoriju</h4>
+                </div>
+                <div class="card-text text-dark text1">
+                  Slavensku teoriju zastupao je Franjo Rački koji je tvrdio da
+                  su Hrvati zapravo Slaveni koji su se preselili u novu
+                  domovinu.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card border-0 shadow text-dark card2">
+              <div class="card-body">
+                <div class="card-title text-center text-dark">
+                  <h4 class="fw-bolder naslov2">
+                    Teorija socijalnog I društvenoga dualizma
+                  </h4>
+                </div>
+                <div class="card-text text-dark text2">
+                  Ovu teoriju zastupao je Vjekoslav Klaić. Tvrdio je da su
+                  Hrvati ratničko pleme koje doseljenjem na današnji prostor
+                  zateklo većinom Slavene. Hrvati su ih pokorili, a Slaveni su
+                  preuzeli njihovo ime.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card border-0 shadow card3">
+              <div class="card-body">
+                <div class="card-title text-center text-dark">
+                  <h4 class="fw-bolder naslov3">Novija istraživanja</h4>
+                </div>
+                <div class="card-text text-dark text3">
+                  Novija istraživanja pokazuju da Hrvati nisu ni bili narod već
+                  avarski graničari pod kojima su bili Avari. Raspadom avarskog
+                  kagnata Hrvati se osamostaljuju te preuzimaju njihovu kulturu
+                  I običaje.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xl">
+        <h3 class="text-center fs-3 fw-bolder">Izvori</h3>
+
+        <div class="row izvori">
+          <div class="col-md-6 col-lg-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-title text-muted text-center fw-bolder fs-4">
+                Ivo Goldstein, Hrvatski rani srednji vijek
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  "Hrvati su pak stanovali u ono vrijeme s one strane Bagibarije
+                  (Bavarske), gdje su danas Bjelohrvati. Jedan od njhovih
+                  rodova, naime petero braće, Klukas i Lobelos, i Kosentzes, i
+                  Muhlo, i Hrobatos, i dvije sestre, Tuga i Buga, odijelili su
+                  se od njih i došli zajednosa svojim narodom u Dalmaciju i
+                  našli Avare u posjedu te pokrajine. ... Hrvati, koji sada
+                  nastanjivaju Dalmaciju, potječu od nekrštenih Hrvata, koje i
+                  Bijelima nazivljaju ... Ovi Hrvati pribjegli su romjeskom caru
+                  Herakliju... Kad su Romani bili protjerani od Avara njihove su
+                  zemlje stojale pustinje. Po naređenju cara Heraklija ovi
+                  Hrvati pograbivši oružje i potjeraše odanle Avare, nastane se
+                  po naredbi cara Heraklija u toj zemlji, u kojoj sada stanuju.
+                  A u to doba su Hrvati imali Porgina oca za vladara."
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-title text-muted text-center fw-bolder fs-4">
+                Toma Arhiđakon, Povijest salonitanske crkve
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  "Toma Arhiđakon, splitski svećenik i kroničar iz 13. stoljeća
+                  u svom djelu Historia Salonitana ne piše o seobi Hrvata, ali o
+                  doseljenju barbara na nekadašnje rimske provincije Panoniju i
+                  Dalmaciju spominje interesantnu podudaranost, ali i suprotnost
+                  u nazivu imena: "Iz krajeva Poljske došlo je ... sedam ili
+                  osam plemena po imenu Lingoni (tadašnji naziv za slavensko
+                  pleme koje je živjelo na području današnje Poljske)."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a href="etnogeneza.html" class="nav-link px-2 text-muted"
+            >Etnogeneza</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Društvo</a>
+        </li>
+        <li class="nav-item">
+          <a href="KnezoviKraljevi.html" class="nav-link px-2 text-muted"
+            >Vladari</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="kultura.html" class="nav-link px-2 text-muted">Kultura</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Međunarodni odnosi</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">Napravili: Ivan Obraz & Marta Bubalo</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        center: true,
+        navText: [
+          "<i class='fa fa-angle-left'></i>",
+          "<i class='fa fa-angle-right'></i>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
