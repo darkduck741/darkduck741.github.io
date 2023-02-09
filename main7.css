@@ -86,7 +86,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: #d6d6d6;
-  height: 200vh;
+  
 }
 .body5 .card-img-overlay{
     background: rgba(0, 0, 0, 0.65);
@@ -121,6 +121,13 @@ body {
     bottom:24vh;
     
   }
+  .body6 .prvitekst{
+    color:#1d1e22;
+    background-color:whitesmoke;
+    padding: 3px;
+    border-radius: 12px;
+    opacity: 0.6;
+  }
 
   .body6 .card:hover {
     transform: scale(1.05);
@@ -136,6 +143,13 @@ body {
   }
   .title5{
     font-size:13px;
+}
+.body5 .izvor{
+  font-size:9px !important;
+}
+
+.body6 .prvitekst{
+  font-size:11px !important;
 }
   .body5 img{
     height:60vh;

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main9.css" />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <div class="body8 h-auto">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Hrvatska Povijest</a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
+                Hrvatska Povijest
+              </h5>
+              <button
+                type="button"
+                class="btn-close bg-light"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="index.html"
+                    >Početna</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="etnogeneza.html"
+                    >Etnogeneza Hrvata</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="kultura.html">Kultura</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Vladari
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="KnezoviKraljevi.html#Knezovi"
+                        >Knezovi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="KnezoviKraljevi.html#Kraljevi"
+                        >Kraljevi</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Međunarodni Odnosi
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Bizant</a></li>
+                    <li><a class="dropdown-item" href="#">Franačka</a></li>
+                    <li><a class="dropdown-item" href="#">Venecija</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item fw-lighter">
+                  <a class="nav-link text-light fs-6" href="literatura.html"
+                    >Literatura</a
+                  >
+                </li>
+              </ul>
+
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-xl">
+        <h3 class="text-center fw-bolder naslov1">
+          Teorije o pokrštavanju Hrvata
+        </h3>
+        <p class="text-center my-3 fw-bold prvitekst">
+          O samom pokrštenju Hrvata postoji malo izvora, arheoloških nalaza i
+          starih kronika, a oni su prilično nejasni, nesigurni i nepotpuni.
+          Budući da se arheolozi i povjesničari ne slažu o dataciji ili
+          tumačenju tih izvora, razilaze se i u određivanju vremena pokrštenja,
+          kao i mjesta pod čijim se utjecajem ono događalo. Između različitih
+          tumačenja izvora mogu se izdvojiti tri teorije o pokrštenju Hrvata
+        </p>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card border-0 shadow text-dark card1">
+              <div class="card-body">
+                <div class="card-title text-center text-dark n1">
+                  <h4 class="fw-bolder naslov2">Arijanska teorija</h4>
+                </div>
+                <div class="card-text text-dark text2 t1">
+                  Arijanska teorija pretpostavlja, tragom zapisa Tome
+                  Arhiđakona, da su Hrvati došli u domovinu već kao kršćani
+                  arijanci, a tek su u dodiru s pravovjernim kršćanima napustili
+                  tu doktrinu. Temelji se na Tominu poistovjećivanju Hrvata s
+                  arijanskim Gotima, a to je protivno većini izvora i
+                  dokumenata.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card border-0 shadow text-dark card2">
+              <div class="card-body">
+                <div class="card-title text-center text-dark n1">
+                  <h4 class="fw-bolder naslov2">Dalmatinska teorija</h4>
+                </div>
+                <div class="card-text text-dark text2 t1">
+                  Ova teorija pretpostavlja da su se Hrvati pokrstili uglavnom
+                  od druge polovice 7. stoljeća i u 8. stoljeća. Osim dokaza
+                  vezanih uz Ivana Ravenjanina, podataka Konstantina
+                  Porfirogeneta i papinskih izvora, ovu teoriju potkrjepljuju i
+                  neki dalmatinski spomenici (Višeslavova krstionica, natpis
+                  crkvice Sv. Križa u Ninu)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card border-0 shadow text-dark card3">
+              <div class="card-body">
+                <div class="card-title text-center text-dark n1">
+                  <h4 class="fw-bolder naslov2">Franačka teorija</h4>
+                </div>
+                <div class="card-text text-dark text2 t1">
+                  Ovu teoriju zastupaju uglavnom noviji povjesničari, odbacujući
+                  gotovo sve prijašnje dokaze. Po teorije se pokrštenje zbilo
+                  potkraj 8. i u 9. stoljeću (u doba Franačke vladavine). Što se
+                  tiče mjesta i utjecaja, jedni tvrde da su odlučujući utjecaj
+                  na pokrštenje Hrvata imali tradicija crkvene hijerarhije
+                  dalmatinskih gradova i poticaji iz Rima i Bizanta, a drugi
+                  tvrde da su na to odsudno utjecali franačka vlast i Akvilejski
+                  patrijarhat.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="my-4 fw-bold text2">
+          Po svemu sudeći možemo zaključiti: Nakon dolaska Hrvata u 7.st. proces
+          pokrštavanja započinje. Naravno ovo je bio dugotrajan proces koji se
+          odvijao do otprilike 9.st. Kršćanski utjecaji su dolazili iz čak tri
+          smjera: iz Franačke, Bizanta I Rima. Polako,ali sigurno slavenska se
+          religija istiskivala. Ovo razdoblje bi se moglo podijeliti na 3
+          dijela. Prvi dio obuhvaća 7.st. U 7.st. sam car Heraklije je bio
+          posrednik kristijanizacije. Drugi dio je vrijeme 8. I 9. st. Gdje su
+          Franci posrednici po kojima akvilejski patrijarh I salzburski
+          nadbiskup šalju misionare benediktince. Treći I zadnji dio je kraj 9.
+          st u kojem bizantski car Bazilije šalje Metodove učenike da pokrste
+          Neretvansku kneževinu. Vladarski sloj je prihvatilo kršćanstvo što im
+          je dalo kartu za ulazak u europski kulturni krug. Međusobna potpora
+          hrvatskih vladara I svećenstva je bilo važno. Tako je država bila
+          ojačana te vlast tog vladara sigurna,ali se tako učvršćivala vjera.
+        </p>
+        <h4 class="text-center fw-bolder n2">Materijalni dokazi</h4>
+
+        <div class="owl-carousel owl-theme c2">
+          <div class="item">
+            <div class="card card1">
+              <img src="slike/MAT1.jpg" alt="" class="card-img opacity-75" />
+              <div class="card-img-overlay">
+                <div
+                  class="wrapper opacity-75"
+                  style="bottom: 0; position: absolute"
+                >
+                  <div class="card-title text-dark test1">
+                    <h4 class="fw-bolder naslov1">
+                      Groblje na Ždrijacu kraj Nina
+                    </h4>
+                  </div>
+                  <p class="opis text-muted fw-bold">
+                    Najveće i dosad najtemeljitije istraženo ranosrednjovjekovno
+                    groblje na području Hrvatske koje se nalazi na poluotočiću
+                    Ždrijacu kraj Nina može se datirati u 8. i rano 9. st. S
+                    gotovo 350 grobova (uobičajen broj grobova na dosad
+                    istraženim lokalitetima kreće se između 20 i 200) »poganskog
+                    horizonta, Ždrijac je izuzetno dragocjen lokalitet za
+                    razumijevanje dinamike pokrštavanja i kristijanizacije na
+                    središnjem području hrvatske kneževine«. Nalazi na Ždrijacu
+                    »odražavaju kulturni utjecaji autohtonoga, romaniziranoga
+                    kasnoantičkog življa na materijalno i duhovno stvaranje
+                    Hrvata, a s druge strane u grobnoj ostavštini vidljivi su
+                    arheološki utjecaji bizantskog i franačkoga kulturnog kruga«
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card1">
+              <img src="slike/MAT2.jpg" alt="" class="card-img opacity-75" />
+              <div class="card-img-overlay">
+                <div
+                  class="wrapper opacity-75"
+                  style="bottom: 0; position: absolute"
+                >
+                  <div class="card-title text-dark test1">
+                    <h4 class="fw-bolder naslov1">
+                      Urezani križevi iz grobova u okolici Sinja
+                    </h4>
+                  </div>
+                  <p class="opis text-muted fw-bold">
+                    Skupina grobova datiranih u kasno 8. i rano 9. st. pripisuje
+                    se, prema nalazima u jednom od grobova, mjesnom
+                    kasnoantičkom stanovništvu. Ako je tumačenje morfologije i
+                    podrijetla tih ukrasa kao prežitka kasnoantičke prakse iz 7.
+                    st.  točno, taj bi osobit način ukrašavanja
+                    unutrašnjosti kamenom obloženih grobova mogao upućivati i na
+                    preživljavanje skupine kasnoantičkog stanovništva na
+                    sinjskom području. Položaj pak lokaliteta smještenih mahom
+                    na sjevernom i istočnom obodu Sinjskog polja potaknuo je i
+                    promišljanje o mogućoj ulozi tog prostora kao zaštitnog
+                    pojasa (limes) ostataka Salonitanske biskupije na prijelazu
+                    kasne antike u rani srednji vijek.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card1">
+              <img src="slike/MAT3.jpg" alt="" class="card-img opacity-75" />
+              <div class="card-img-overlay">
+                <div
+                  class="wrapper opacity-75"
+                  style="bottom: 0; position: absolute"
+                >
+                  <div class="card-title text-dark test1">
+                    <h4 class="fw-bolder naslov1">
+                      Sveta Majka Božja Gorska kraj Lobora
+                    </h4>
+                  </div>
+                  <p class="opis text-muted fw-bold">
+                    Među najznačajnije nedavno istražene arheološke lokalitete u
+                    Hrvatskoj svakako spada i Sveta Majka Božja Gorska kraj
+                    Lobora gdje je na temeljima srušene ranokršćanske bazilike s
+                    krstionicom rekonstruirano postojanje drvene »misionarske«
+                    crkve iz ranog 9. st. Dosadašnji nalazi i njihovo tumačenje
+                    upućuju na to da je na tom strateški izvrsno smještenu
+                    položaju, na ruševinama kasnoantičkog utvrđenog naselja, oko
+                    800. nastalo slavensko naselje. Prvotnu drvenu crkvu, srodnu
+                    suvremenim crkvama poznatim iz današnje Austrije i Mađarske,
+                    u drugoj je polovici 9. ili početkom 10. st. zamijenila veća
+                    zidana predromanička građevina. Grobni nalazi oko prvotne
+                    crkve dragocjen su prilog istraživanju kristijanizacije te
+                    podupiru pretpostavku o Loboru kao jednom od značajnih
+                    karolinških misionarskih središta u nekadašnjoj savskoj
+                    Panoniji. O važnosti tog lokaliteta govori i činjenica da je
+                    riječ o prvom lokalitetu s nalazima ranokršćanske i
+                    ranosrednjovjekovne crkvene arhitekture u kontinentalnoj
+                    Hrvatskoj.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card1">
+              <img src="slike/MAT4.jpg" alt="" class="card-img opacity-75" />
+              <div class="card-img-overlay">
+                <div
+                  class="wrapper opacity-75"
+                  style="bottom: 0; position: absolute"
+                >
+                  <div class="card-title text-dark test1">
+                    <h4 class="fw-bolder naslov1">Višeslavova krstionica</h4>
+                  </div>
+                  <p class="opis text-muted fw-bold">
+                    Ranosrednjovjekovni krsni zdenac izrađen za krštenje
+                    odraslih osoba uranjanjem izradio je za kneza Višeslava
+                    svećenik Ivan. O točnom vremenu i mjestu nastanka krstionice
+                    raspravlja se u hrvatskoj historiografiji od njezina otkrića
+                    sredinom 19. st. Krstionica se tada nalazila u Veneciji
+                    odakle je u vrijeme NDH otkupljena i prenesena u Zagreb.
+                    Spomen kneza Višeslava zabilježen u datacijskoj formuli (SUB
+                    TEMPORE VVISSASCLAVO DUCI) naveo je više starijih autora da
+                    ga povežu sa zahumskim knezom s kraja 9. st., da bi kasnije
+                    prevladalo mišljenje da se radi o, inače iz izvora
+                    nepoznatom, hrvatskom knezu s početka 9. st. U hrvatskoj je
+                    historiografiji druge polovice 20. st. bilo pokušaja da se
+                    krstionica datira u 11. st. , pa i dovede u pitanje njezino
+                    ninsko podrijetlo . No na temelju stilskih, epigrafskih i
+                    paleografskih odlika krstionicu je moguće relativno pouzdano
+                    datirati na početak 9. st. ). S druge strane, niz problema
+                    vezanih uz njezino ninsko podrijetlo potječe iz neslaganja
+                    oko tumačenja izvora koji spominju krstionicu u ninskoj
+                    katedrali tijekom 16. i 17. st. Premda su stavovi stručnjaka
+                    po tom pitanju i danas podijeljeni, njezin simbolički
+                    značaj, jedinstvenost i ljepota umnogome su doprinijeli tome
+                    da je Višeslavova krstionica tijekom druge polovice 20. st.
+                    postala jednim od temeljnih simbola hrvatskog kulturnog i
+                    vjerskog identiteta
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card1">
+              <img src="slike/MAT5.jpg" alt="" class="card-img opacity-75" />
+              <div class="card-img-overlay">
+                <div
+                  class="wrapper opacity-75"
+                  style="bottom: 0; position: absolute"
+                >
+                  <div class="card-title text-dark test1">
+                    <h4 class="fw-bolder naslov1">
+                      Oblikovanje ranosrednjovjekovnog kršćanskog krajolika:
+                      lokalitet Crkvina
+                    </h4>
+                  </div>
+                  <p class="opis text-muted fw-bold">
+                    Složenost rane povijesti kršćanstva na hrvatskome prostoru
+                    osobito zorno oslikava, među brojnim sličnim primjerima,
+                    lokalitet Crkvine u Dalmatinskoj Zagori. Rezultati
+                    arheoloških istraživanja dopustili su rekonstrukciju
+                    izuzetno složenog sklopa antičkih svjetovnih te
+                    ranokršćanskih i ranosrednjovjekovnih sakralnih građevina
+                    smještenog na lokalitetu koji je vjerojatno bio naseljen još
+                    od brončanog doba. Sklop sačinjavaju ostaci čak pet
+                    različitih sakralnih građevina podizanih na istim temeljima
+                    između kasne antike (sredina 5. st.) i ranog srednjeg vijeka
+                    (početak 10. st.). Uz crkve su se nalazili spremnici za vodu
+                    i niz različitih prostorija među kojima i kasnoantički
+                    baptisterij s krsnim zdencem
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a href="etnogeneza.html" class="nav-link px-2 text-muted"
+            >Etnogeneza</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Društvo</a>
+        </li>
+        <li class="nav-item">
+          <a href="KnezoviKraljevi.html" class="nav-link px-2 text-muted"
+            >Vladari</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="kultura.html" class="nav-link px-2 text-muted">Kultura</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Međunarodni odnosi</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">Napravili: Ivan Obraz & Marta Bubalo</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        center: true,
+        navText: [
+          "<i class='fa fa-angle-left'></i>",
+          "<i class='fa fa-angle-right'></i>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

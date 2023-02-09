@@ -179,6 +179,10 @@ body {
   display: none !important;
 }
 
+.izvori .card{
+  height:auto;
+}
+
 @media only screen and (max-width: 767px) {
   .card {
     height: 26em;
@@ -189,6 +193,12 @@ body {
   }
   .card .h4 {
     font-size: medium;
+  }
+  .izvori .card .card-text{
+    font-size:smaller;
+  }
+  .izvori .card .card-title{
+    font-size:medium !important;
   }
   .navbar-nav {
     text-align: center;

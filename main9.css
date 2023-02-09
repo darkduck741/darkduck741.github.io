@@ -75,112 +75,167 @@ body {
   height: 100vh;
 }
 
-.body3 .card {
-  border-radius: 30px;
-}
-
-.body3 .card-title {
+.owl-nav .owl-prev {
   position: absolute;
+  top: calc(50% - 50px);
+  left: -15px;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
 }
 
-.body3 .card-text {
+.owl-nav .owl-next {
   position: absolute;
-  bottom: 30px;
-  font-size: 15px;
+  top: calc(50% - 50px);
+  right: -15px;
+  opacity: 1;
+  font-size: 30px !important;
 }
 
-.body3 {
+.body8 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("slike/VLADARI.jpg");
+    url("slike/POKRSTAVNJEHRVATA.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-}
 
 
-.card-img-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
+  
 }
 
-.card:hover .card-img-overlay {
-  display: flex;
+.card1{
+    background-color:#1d1e22;
 }
-.card:hover{
-  transform:scale(1.1)
+.card1 .card-text {
+    color:#d6d6d6 !important;
+
 }
 
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.card3{
+    background-color: #feda6a;
+}
+.card3 h4{
+    color:#1d1e22 !important;
 }
 
-
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.card3 .card-text{
+    color: #d6d6d6;
+}
+.body8 .card{
+    height: 30vh;
+}
+.n1 h4{
+    color:#feda6a;
+}
+.t1 p{
+    color:#6c757d;
+}
+.body8 .naslov1,.n2{
+    color:#feda6a !important;
+}
+.body8 .prvitekst,.text2{
+    color: #d6d6d6
 }
 
-.card-img{
-  height:50vh;
-}
-.slike2{
-  height:70vh;
-}
-.slike3{
-  height:70vh;
+.c2 img{
+    height:60vh;
 }
 
-.naslov1{
-  color:#feda6a
+.c2 .card{
+    height:60vh;
 }
-.text1{
-  color:#1d1e22;
-  font-size: 16px;
+
+.c2 p{
+    font-size: 13px !important;
 }
-.wrapper{
-  background-color:white;
-  opacity: 0.9;
-  padding:5px;
-  border-radius: 24px;
+.c2 .text-muted{
+    color: #d6d6d6 !important;
+}
+ 
+.c2 .card-title h4{
+    font-size: 18px !important;
+}
+
+.c2 .card-img-overlay{
+    display:none;
+    background:rgba(0, 0, 0, 0.65)
+}
+
+.c2 .card:hover .card-img-overlay{
+    display:flex;
 }
 @media only screen and (max-width: 767px) {
-  .card-img {
-    height: 60vh;
+  .body8 {
+    height: auto !important;
   }
-
-  .text1{
-    color:#1d1e22;
+  .body7 .card-img {
+    height: 50vh;
+  }
+  .body8 .card-text {
     font-size: 11px;
   }
-  .naslov1{
-   font-size: 16px;
+  .card-img {
+    height: 50vh;
   }
-.slike2{
-  height:80vh;
-
-
+  .body8 .title1 {
+    position: absolute;
+    bottom: 25vh;
+  }
+  .title5 {
+    font-size: 13px;
+  }
+  .body5 .izvor {
+    font-size: 9px !important;
+  }
+  .c2 img{
+    height:80vh;
 }
-.slike3{
-  height:95vh;
+
+.c2 .card{
+    height:80vh;
 }
 
+.c2 .card-title{
+    font-size:14px;
+}
+
+.c2 p{
+    font-size: 10px;
+}
+
+
+
+  .body8 .prvitekst,.text2 {
+    font-size: 11px !important;
+  }
+  .body5 img {
+    height: 60vh;
+  }
+  .card1 .h5 {
+    font-size: medium;
+  }
+  .card1 .card-text {
+    font-size: smaller;
+  }
+
+  .naslov1,.n2{
+    font-size:17px;
+  }
+  
   .card .h5 {
     font-size: medium;
   }
-.card .card-text{
-  font-size:12px;
-}
+  .card .card-text {
+    font-size: 12px;
+  }
   .navbar-nav {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
   }
 
+  
   .text22 {
     font-size: 13px !important;
   }
@@ -193,7 +248,6 @@ body {
     font-size: 12px !important;
   }
 }
-
 /* Footer */
 footer li a:hover {
   color: #feda6a !important;
@@ -204,5 +258,9 @@ footer li a:hover {
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
 }

@@ -75,125 +75,90 @@ body {
   height: 100vh;
 }
 
-.body3 .card {
-  border-radius: 30px;
-}
-
-.body3 .card-title {
-  position: absolute;
-}
-
-.body3 .card-text {
-  position: absolute;
-  bottom: 30px;
-  font-size: 15px;
-}
-
-.body3 {
+.body7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("slike/VLADARI.jpg");
+    url("slike/MODNOSI.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  color: #d6d6d6;
 }
 
-
-.card-img-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
+.body7 .card-img{
+    height:41vh;
 }
 
-.card:hover .card-img-overlay {
-  display: flex;
-}
-.card:hover{
-  transform:scale(1.1)
-}
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.card-img{
-  height:50vh;
-}
-.slike2{
-  height:70vh;
-}
-.slike3{
-  height:70vh;
-}
-
-.naslov1{
-  color:#feda6a
-}
-.text1{
-  color:#1d1e22;
-  font-size: 16px;
-}
-.wrapper{
-  background-color:white;
-  opacity: 0.9;
-  padding:5px;
-  border-radius: 24px;
-}
-@media only screen and (max-width: 767px) {
-  .card-img {
-    height: 60vh;
-  }
-
-  .text1{
+.body7 .card-text{
+    font-size:14px;
     color:#1d1e22;
-    font-size: 11px;
-  }
-  .naslov1{
-   font-size: 16px;
-  }
-.slike2{
-  height:80vh;
-
-
-}
-.slike3{
-  height:95vh;
 }
 
-  .card .h5 {
-    font-size: medium;
-  }
-.card .card-text{
-  font-size:12px;
-}
-  .navbar-nav {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-  }
-
-  .text22 {
-    font-size: 13px !important;
-  }
-
-  .navbar-brand {
-    font-size: 14px !important;
-  }
-
-  .offcanvas-title {
-    font-size: 12px !important;
-  }
+.body7{
+    height:100vh !important;
 }
 
+@media only screen and (max-width: 767px) {
+    .body7{
+        height:auto !important;
+    }
+    .body7 .card-img{
+        height:50vh;
+    }
+    .body7 .card-text{
+        font-size:11px;
+    }
+    .card-img {
+      height: 50vh;
+    }
+    .body4 .title1 {
+      position: absolute;
+      bottom: 25vh;
+    }
+    .title5{
+      font-size:13px;
+  }
+  .body5 .izvor{
+    font-size:9px !important;
+  }
+  
+  .body6 .prvitekst{
+    font-size:11px !important;
+  }
+    .body5 img{
+      height:60vh;
+    }
+    .card1 .h5 {
+      font-size: medium;
+    }
+    .card1 .card-text {
+      font-size: smaller;
+    }
+  
+    .card .h5 {
+      font-size: medium;
+    }
+    .card .card-text {
+      font-size: 12px;
+    }
+    .navbar-nav {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  
+    .text22 {
+      font-size: 13px !important;
+    }
+  
+    .navbar-brand {
+      font-size: 14px !important;
+    }
+  
+    .offcanvas-title {
+      font-size: 12px !important;
+    }
+  }
 /* Footer */
 footer li a:hover {
   color: #feda6a !important;
@@ -204,5 +169,9 @@ footer li a:hover {
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
 }
