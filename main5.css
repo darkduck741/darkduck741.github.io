@@ -102,7 +102,7 @@ transform: scale(1.05);
   }
 
   .card1{
-    height:20vh;
+    height:15vh;
     background-color: #feda6a;
   }
 .card1 .card-text{
@@ -121,7 +121,7 @@ transform: scale(1.05);
     background-position: center;
     background-repeat: no-repeat;
     color: #d6d6d6;
-    height: 200vh;
+    
   }
 
 

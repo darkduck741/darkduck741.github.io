@@ -173,6 +173,7 @@ body {
   .body7 .card-img {
     height: 50vh;
   }
+  
   .body8 .card-text {
     font-size: 11px;
   }
@@ -202,7 +203,7 @@ body {
 }
 
 .c2 p{
-    font-size: 10px;
+    font-size: 11px !important;
 }
 
 
