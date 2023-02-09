@@ -12,6 +12,8 @@ body {
   opacity: 0.9;
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
@@ -73,44 +75,76 @@ body {
   height: 100vh;
 }
 
-.navbar-toggler {
-  padding: 1px 5px;
-  font-size: 18px;
-  line-height: 0.3;
-  background: #fff;
-}
+.body4 .card {
+    border-radius: 30px;
+  }
+  
+  .body4 .title1 {
+    position: absolute;
+    bottom:24vh;
+    
+  }
 
-.body3 {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("slike/mikolaj-DCzpr09cTXY-unsplash\ \(1\).jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #d6d6d6;
-}
 
-.ikona {
-  background-color: white;
-}
+  
+  .body4 .card-text {
+    position: absolute;
+    bottom: 30px;
+    font-size: 15px;
+  }
+  .card-img{
+    height:50vh;
+  }
 
-.navbar-toggler {
-  border-color: white;
-}
+  .body4 .card:hover {
+transform: scale(1.05);
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .card1{
+    height:20vh;
+    background-color: #feda6a;
+  }
+.card1 .card-text{
+    color:#1d1e22;
+
 }
+  
+
+
+  .body4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("slike/HRVKULTURA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d6d6d6;
+    height: 200vh;
+  }
+
+
+
+
+
+
 
 @media only screen and (max-width: 767px) {
   .card-img {
-    height: 60vh;
+    height: 50vh;
+  }
+  .body4 .title1 {
+    position: absolute;
+    bottom:25vh;
   }
 
-  .slike2 {
-    height: 80vh;
+  .card1 .h5{
+    font-size:medium;
+    
+  }
+  .card1 .card-text{
+    font-size:smaller;
   }
 
   .card .h5 {
@@ -134,7 +168,7 @@ body {
 
   .offcanvas-title {
     font-size: 12px !important;
-  }
+  } 
 }
 
 /* Footer */

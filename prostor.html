@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main7.css" />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <div class="body5">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Hrvatska Povijest</a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
+                Hrvatska Povijest
+              </h5>
+              <button
+                type="button"
+                class="btn-close bg-light"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="index.html"
+                    >Početna</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="etnogeneza.html"
+                    >Etnogeneza Hrvata</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="kultura.html">Kultura</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Vladari
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="KnezoviKraljevi.html#Knezovi"
+                        >Knezovi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="KnezoviKraljevi.html#Kraljevi"
+                        >Kraljevi</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Međunarodni Odnosi
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Bizant</a></li>
+                    <li><a class="dropdown-item" href="#">Franačka</a></li>
+                    <li><a class="dropdown-item" href="#">Venecija</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item fw-lighter">
+                  <a class="nav-link text-light fs-6" href="literatura.html"
+                    >Literatura</a
+                  >
+                </li>
+              </ul>
+
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h2 class="text-center fw-bolder">Kneževine</h2>
+      <div class="container-xl">
+        <p class="fw-bold text-center">
+          Hrvati uz pomoć Franaka ili samostalno osnivaju kneževine koje su
+          povjesničari nazivali sklavinije. Ipak s obzirom da su vladari uz
+          svoju titulu naziv knez nazivaju se kneževine. Dvije najvažnije su
+          Donjopanonska kneževina I Primorska Hrvatska
+        </p>
+        <div class="row mt-5 p-2">
+          <div class="col-sm-12 col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Donjopanonska kneževina</h5>
+                <p class="card-text fw-bold">
+                  Središte joj je bilo u Sisku i ravile se iz Donjopanonske
+                  sklavinije. Prostirala se zmeđu Save I Drave . Bila je vazalno
+                  franačka kneževina kojom je vladao domaći knez.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Primorska Hrvatska</h5>
+                <p class="card-text fw-bold">
+                  Najvažnija kneževina koja će kasnije biti jezgra hrvatske
+                  države. Razvila se iz Liburnijske sklavinije kojom su
+                  dominirali Gudušćani. Također je bila vazalna kenževina s
+                  domaćim knezom.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 mt-lg-3 offset-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Paganija</h5>
+                <p class="card-text fw-bold">
+                  Kneževina koja je obuhvaćala područje između Cetine I Neretve
+                  te otoke Brač,Hvar,Vis,Korčulu,Lastovo I Mljet. Imala je naziv
+                  Paganija jer se pokrštavanje odvilo tek krajem 9.st. zbog toga
+                  što su stanovnici teško bili prihvaćali kršćanostvo te su
+                  mahom bili pogani.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 class="fw-bolder text-center mt-4">Nastanak Hrvatske</h2>
+          </div>
+          <div class="col-lg-10 offset-lg-1">
+            <div class="card bg-dark text-white opacity-100">
+              <img src="slike/BORNA2.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay">
+                <div class="wrapper">
+                  <h5 class="card-title fw-bolder title5">
+                    Borna I Ljudevit - dva različita pogleda na istu situaciju
+                  </h5>
+                  <p class="card-text">
+                    Nakon smrti Karla Velikog Franačka je znatno oslabila. Tad
+                    dolazi do borbe vazalnih područja za neovisnost. Knez
+                    Ljudevit koji je bio knez Donjopanonske kneževine koji se
+                    odmeće od franačke vlasti I budi ustanak protiv Franačke.
+                    Njegov plan je bilo osamostaljenje. Na drugoj strani je bio
+                    knez Borna koji se proglasio knezom Liburnije I Dalmacije.
+                    On je ostao na strani Franačke te je odbio Ljudevitov
+                    prijedlog da se udruže. Borna čak nije ni imao razlog zašto
+                    bi mu se pridružio jer je za razliku od Ljudevita bio u
+                    dobrim odnosima s Francima. Borna je smatrao da ako ostane
+                    na strani Franačke da će dobiti vlast nad dalmatinskim
+                    gradovima I područjima Liburnije I Dalmacije koji su ne
+                    uređeni. Ispostavilo se da je imao pravo. Njegovi
+                    nasljednici će poslije vladati cijelim tim područjem. Bez
+                    Ljudevitovoga ustanka danas ne bi imali puno podataka o
+                    osnivanju Hrvatske države te o prvom pravom vladaru Hrvatske
+                    to jest o Borni.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body6">
+<h2 class="fw-bolder fs-2 text-center naslov1">Međunarodni odnosi</h2>
+<div class="container-xl">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+            <a href="">
+              <div class="card bg-dark text-white">
+                <img
+                  src="slike/BIZANT.jpg"
+                  class="card-img opacity-50 slike2"
+                  alt="..."
+                  style="height:50vh"
+                />
+                <div class="card-img-overlay d-flex justify-content-center">
+                  <h5 class="card-title fw-bolder title1">
+                    Bizant
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+            <a href="">
+              <div class="card bg-dark text-white">
+                <img
+                  src="slike/FRANACKA.jpg"
+                  class="card-img opacity-50 slike2"
+                  alt="..."
+                  style="height:50vh"
+                />
+                <div class="card-img-overlay d-flex justify-content-center">
+                  <h5 class="card-title fw-bolder title1">
+                    Franačka
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4 offset-lg-3 offset-md-3">
+            <a href="">
+              <div class="card bg-dark text-white">
+                <img
+                  src="slike/VENECIJA.jpg"
+                  class="card-img opacity-50 slike2"
+                  alt="..."
+                  style="height:50vh"
+                />
+                <div class="card-img-overlay d-flex justify-content-center">
+                  <h5 class="card-title fw-bolder title1">
+                    Venecija
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+    </div>
+</div>
+
+    </div>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a href="etnogeneza.html" class="nav-link px-2 text-muted"
+            >Etnogeneza</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Društvo</a>
+        </li>
+        <li class="nav-item">
+          <a href="KnezoviKraljevi.html" class="nav-link px-2 text-muted"
+            >Vladari</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="kultura.html" class="nav-link px-2 text-muted">Kultura</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Međunarodni odnosi</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">Napravili: Ivan Obraz & Marta Bubalo</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
