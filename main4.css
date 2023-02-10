@@ -99,7 +99,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
 .card-img-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
@@ -108,8 +107,8 @@ body {
 .card:hover .card-img-overlay {
   display: flex;
 }
-.card:hover{
-  transform:scale(1.1)
+.card:hover {
+  transform: scale(1.1);
 }
 
 .close-btn {
@@ -118,35 +117,33 @@ body {
   right: 10px;
 }
 
-
-
 .close-btn {
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
-.card-img{
-  height:50vh;
+.card-img {
+  height: 50vh;
 }
-.slike2{
-  height:70vh;
+.slike2 {
+  height: 70vh;
 }
-.slike3{
-  height:70vh;
+.slike3 {
+  height: 70vh;
 }
 
-.naslov1{
-  color:#feda6a
+.naslov1 {
+  color: #feda6a;
 }
-.text1{
-  color:#1d1e22;
+.text1 {
+  color: #1d1e22;
   font-size: 16px;
 }
-.wrapper{
-  background-color:white;
+.wrapper {
+  background-color: white;
   opacity: 0.9;
-  padding:5px;
+  padding: 5px;
   border-radius: 24px;
 }
 @media only screen and (max-width: 767px) {
@@ -154,28 +151,26 @@ body {
     height: 60vh;
   }
 
-  .text1{
-    color:#1d1e22;
+  .text1 {
+    color: #1d1e22;
     font-size: 11px;
   }
-  .naslov1{
-   font-size: 16px;
+  .naslov1 {
+    font-size: 16px;
   }
-.slike2{
-  height:80vh;
-
-
-}
-.slike3{
-  height:95vh;
-}
+  .slike2 {
+    height: 80vh;
+  }
+  .slike3 {
+    height: 95vh;
+  }
 
   .card .h5 {
     font-size: medium;
   }
-.card .card-text{
-  font-size:12px;
-}
+  .card .card-text {
+    font-size: 12px;
+  }
   .navbar-nav {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);

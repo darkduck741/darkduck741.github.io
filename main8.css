@@ -86,6 +86,29 @@ body {
   color: #d6d6d6;
 }
 
+.body9{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("slike/HRVDRUSTVO.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d6d6d6;
+}
+
+.body10{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("slike/CRKVA.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d6d6d6;
+    height: auto !important;
+}
+
 .body7 .card-img{
     height:41vh;
 }
@@ -96,7 +119,7 @@ body {
 }
 
 .body7{
-    height:100vh !important;
+    height:100vh ;
 }
 
 @media only screen and (max-width: 767px) {

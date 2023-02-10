@@ -83,6 +83,9 @@ body {
 .body4 .card {
   height: 50vh;
 }
+.body4 img {
+  height: 50vh;
+}
 .textopis {
   font-size: 13px;
 }
@@ -173,6 +176,9 @@ body {
   }
 }
 
+/* TEST */
+
+
 /* Footer */
 footer li a:hover {
   color: #feda6a !important;
@@ -187,5 +193,5 @@ footer li a:hover {
 }
 
 .text-muted {
-    color: #6c757d!important;
+  color: #6c757d !important;
 }
