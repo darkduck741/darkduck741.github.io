@@ -186,7 +186,7 @@ body {
   height:auto;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .card {
     height: 26em;
     font-size: smaller;

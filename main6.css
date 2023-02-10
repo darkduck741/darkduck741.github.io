@@ -139,7 +139,7 @@ body {
   font-size: 13px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .card-img {
     height: 50vh;
   }

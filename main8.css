@@ -121,13 +121,12 @@ body {
     color:#1d1e22;
 }
 
-.body7{
-    height:100vh ;
-}
 
-@media only screen and (max-width: 767px) {
+
+
+@media only screen and (max-width: 1024px) {
     .body7{
-        height:auto !important;
+        height:auto;;
     }
     .body7 .card-img{
         height:50vh;

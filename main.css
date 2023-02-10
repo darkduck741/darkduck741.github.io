@@ -142,7 +142,7 @@ footer li a:hover {
 }
 
 /* Media */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .navbar-nav {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);

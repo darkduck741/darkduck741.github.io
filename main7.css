@@ -136,7 +136,7 @@ body {
     transform: scale(1.05);
     
       }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .card-img {
     height: 50vh;
   }

@@ -169,7 +169,7 @@ body {
 .c2 .card:hover .card-img-overlay{
     display:flex;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .body8 {
     height: auto !important;
   }
